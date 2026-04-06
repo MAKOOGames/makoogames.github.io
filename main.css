@@ -96,7 +96,18 @@ body, input, select, textarea {
 	#header p { font-size: 1em; }
     body, input, select, textarea { font-size: 11pt; }
 }
+/* --- STUDIO LOGO RESIZING --- */
+#studio-logo {
+    width: 450px;       /* Change this to 500px or 600px if you want it even bigger! */
+    height: auto;       /* This keeps the proportions perfect so it doesn't squish */
+    margin-bottom: 5px; /* Pulls the social icons a little closer to the logo */
+    filter: drop-shadow(0 0 20px rgba(0,0,0,0.5)); /* Optional: Adds a subtle shadow so it pops against the background */
+}
 
+/* Adjusting the header spacing now that the text is gone */
+#header {
+    top: 0;             /* Resets the position to dead-center since the text is gone */
+}
 /* =========================================
    --- BULLETPROOF MODERN ICON FIX --- 
    ========================================= */
